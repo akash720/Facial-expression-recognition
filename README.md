@@ -8,11 +8,13 @@ It uses fer2013 database which you can download from the link below:
 
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
-This project  consists of two notebooks.
+This project consists of a single notebook which has the following:
 
-First is train.ipynb which consist of training our model on the given dataset.
+* Data pre-processing
+* Training model
+* Testing model and comparing results
 
-Second is predict.ipynb which consist of prediction or results of our model. I have also included a pre-trained model to compare my results.
+_I have included a pre-trained model to compare my results._
 
 ## Process for training
 - First, we import the dataset and initialize our **X_train, y_train, X_test, y_test** .
@@ -28,4 +30,4 @@ Second is predict.ipynb which consist of prediction or results of our model. I h
 
 - The output is a list containing seven probabilities, each for an emotion.
 
-- The index of **maximum probability** from the list indicates the emotion (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise,   6=Neutral).
+- The index of **maximum probability** from the list indicates the emotion (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
