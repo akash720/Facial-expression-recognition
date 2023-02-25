@@ -21,7 +21,7 @@ _I have included a pre-trained model to compare my results._
 
 - Then we create our **model architecture**. Following is my model architecture:
 
-![architecture](https://raw.githubusercontent.com/akash720/Facial-expression-recognition/master/images/architecture.jpeg)
+![architecture](https://drive.google.com/u/2/uc?id=1HmnQIZUf8jjffmUSm_3DU6QIZl6x3r5F&export=download)
 
 ## Process for predicting
 - First, we use **haar cascade** to detect faces in the given image and crop the face accordingly.
@@ -31,3 +31,8 @@ _I have included a pre-trained model to compare my results._
 - The output is a list containing seven probabilities, each for an emotion.
 
 - The index of **maximum probability** from the list indicates the emotion (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
+
+## Final notebook with all code
+
+[Complete Notebook](https://github.com/akash720/Facial-expression-recognition/blob/master/complete_notebook.ipynb)
+
